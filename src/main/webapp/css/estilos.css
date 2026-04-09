@@ -1,0 +1,100 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+h1 {
+  color: #065a82;
+  border-bottom: 2px solid #065a82;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+th {
+  background: #065a82;
+  color: white;
+}
+
+tr.par {
+  background: #ffffff;
+}
+tr.impar {
+  background: #f2f2f2;
+}
+
+/* Formulario */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 450px;
+  margin-top: 1rem;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 0.4rem 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  font-weight: normal;
+}
+
+/* Botones y enlaces */
+button {
+  padding: 0.5rem 1rem;
+  background: #065a82;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  width: fit-content;
+}
+
+button:hover {
+  background: #054a6e;
+}
+
+a {
+  color: #065a82;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Mensajes */
+.alert-success {
+  background: #e8f5e9;
+  color: #2e7d32;
+  padding: 10px;
+  border-radius: 4px;
+  border-left: 4px solid #2e7d32;
+  margin-bottom: 1rem;
+}
